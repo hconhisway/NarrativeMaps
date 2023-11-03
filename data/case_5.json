@@ -1,0 +1,107 @@
+{
+    "caseName": "Kirkham v. Widdison, 447 P.3d 89 (2019)",
+    "decisionDate": "June 6, 2019",
+    "court": "Court of Appeals of Utah",
+    "background": [
+        {
+            "id": 1,
+            "simple": "Divorce case origins",
+            "detailed": "The case stems from issues arising from a petition to modify in a separate divorce proceeding"
+        },
+        {
+            "id": 2,
+            "simple": "Tax return issues",
+            "detailed": "It involves tax returns, tax exemptions, and the roles of various parties in preparing and filing amended tax returns"
+        }
+    ],
+    "evidence": [
+        {
+            "id": 1,
+            "simple": "Kirkham's 2009-2011 returns",
+            "detailed": "Kirkham's tax returns for 2009, 2010, and 2011"
+        },
+        {
+            "id": 2,
+            "simple": "HRB's Pro Forma Returns",
+            "detailed": "Pro Forma Returns prepared by HRB"
+        }
+    ],
+    "legalArgument": [
+        {
+            "id": 1,
+            "simple": "Tortious conversion claim",
+            "detailed": "Kirkham raised claims for tortious conversion",
+            "relatedEvidence": [1]
+        },
+        {
+            "id": 2,
+            "simple": "Civil conspiracy claim",
+            "detailed": "Civil conspiracy",
+            "relatedEvidence": [1, 2]
+        },
+        {
+            "id": 3,
+            "simple": "Privacy invasion claim",
+            "detailed": "Invasion of privacy",
+            "relatedEvidence": [1]
+        },
+        {
+            "id": 4,
+            "simple": "Utah Consumer Act violation",
+            "detailed": "Violation of the Utah Consumer Sales Practices Act",
+            "relatedEvidence": [1, 2]
+        },
+        {
+            "id": 5,
+            "simple": "Emotional distress claim",
+            "detailed": "Intentional infliction of emotional distress",
+            "relatedEvidence": [1]
+        },
+        {
+            "id": 6,
+            "simple": "Fiduciary duty breach",
+            "detailed": "Breach of fiduciary duty",
+            "relatedEvidence": [2]
+        }
+    ],
+    "initialJudgment": [
+        {
+            "id": 1,
+            "simple": "Widdison's child tax exemption",
+            "detailed": "The trial court authorized Widdison to claim the child exemption for tax years 2009 through 2012",
+            "relatedLegalArguments": [1, 2, 3]
+        },
+        {
+            "id": 2,
+            "simple": "Kirkham to file Amended Returns",
+            "detailed": "Ordered Kirkham to sign and file the Amended Returns",
+            "relatedLegalArguments": [4, 5, 6]
+        }
+    ],
+    "appeal": [
+        {
+            "id": 1,
+            "simple": "Kirkham's challenge",
+            "detailed": "Kirkham appealed the trial court's decisions"
+        }
+    ],
+    "outcome": [
+        {
+            "id": 1,
+            "simple": "Appeals court's affirmation",
+            "detailed": "The Court of Appeals of Utah affirmed the trial court's decisions"
+        }
+    ],
+    "otherInfo": [
+        {
+            "id": 1,
+            "simple": "Parties involved listed",
+            "detailed": "Parties involved include Janae A. Kirkham (Appellant), Jamie Widdison, HRB Tax Group, Grace Hansen, Bonny Widdison, and Alpine Gardens Inc. (Appellees)"
+        },
+        {
+            "id": 2,
+            "simple": "Kirkham's fourth appeal",
+            "detailed": "The case has been appealed multiple times, with this being the fourth appeal by Kirkham"
+        }
+    ]
+}

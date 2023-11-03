@@ -1,0 +1,129 @@
+{
+    "caseName": "State v. Dominguez, 447 P.3d 1224",
+    "decisionDate": "July 5, 2019",
+    "court": "Court of Appeals of Utah",
+    "background": [
+        {
+            "id": 1,
+            "simple": "Dominguez met Victim at club.",
+            "detailed": "Julio Alphonso Dominguez and friends met the Victim at a club."
+        },
+        {
+            "id": 2,
+            "simple": "Group invited to Victim's apartment.",
+            "detailed": "The Victim invited the group to his apartment."
+        },
+        {
+            "id": 3,
+            "simple": "Victim touched friend inappropriately.",
+            "detailed": "On the way to the apartment, the Victim touched one of Dominguez's female friends inappropriately."
+        },
+        {
+            "id": 4,
+            "simple": "Confrontation ensued.",
+            "detailed": "This led to a confrontation."
+        },
+        {
+            "id": 5,
+            "simple": "Fight at apartment.",
+            "detailed": "At the apartment, disagreements arose and a fight broke out."
+        },
+        {
+            "id": 6,
+            "simple": "Victim locked in bedroom.",
+            "detailed": "The Victim locked himself in his bedroom."
+        }
+    ],
+    "evidence": [
+        {
+            "id": 1,
+            "simple": "Varied testimonies on women's location.",
+            "detailed": "Testimonies varied about the location of Dominguez's two female friends during the fight."
+        },
+        {
+            "id": 2,
+            "simple": "Some said women were in bedroom.",
+            "detailed": "Some witnesses said they were in the bedroom when the fight began."
+        },
+        {
+            "id": 3,
+            "simple": "Others said women were outside.",
+            "detailed": "Others claimed they were outside when the Victim locked himself in."
+        }
+    ],
+    "legalArgument": [
+        {
+            "id": 1,
+            "simple": "Door broken to rescue women.",
+            "detailed": "Dominguez and co-defendants claimed they broke down the Victim's bedroom door to rescue the two women.",
+            "relatedEvidence": [1, 2, 3]
+        },
+        {
+            "id": 2,
+            "simple": "Women perceived in danger.",
+            "detailed": "They believed the women were in danger due to the Victim's earlier behavior.",
+            "relatedEvidence": [1]
+        },
+        {
+            "id": 3,
+            "simple": "Acted in defense of others.",
+            "detailed": "They argued they were acting in defense of others.",
+            "relatedEvidence": [1, 2]
+        }
+    ],
+    "initialJudgment": [
+        {
+            "id": 1,
+            "simple": "Co-defendants charged with burglary.",
+            "detailed": "All co-defendants were charged with aggravated burglary.",
+            "relatedLegalArgument": [1, 3]
+        },
+        {
+            "id": 2,
+            "simple": "Additional charges for some.",
+            "detailed": "Some co-defendants faced additional charges of aggravated robbery and assault.",
+            "relatedLegalArgument": [2]
+        }
+    ],
+    "appeal": [
+        {
+            "id": 1,
+            "simple": "Dominguez appealed burglary.",
+            "detailed": "Dominguez appealed his conviction of aggravated burglary."
+        }
+    ],
+    "outcome": [
+        {
+            "id": 1,
+            "simple": "Co-defendants found guilty.",
+            "detailed": "The jury found all co-defendants guilty of aggravated burglary."
+        },
+        {
+            "id": 2,
+            "simple": "Dominguez: 10 years-life sentence.",
+            "detailed": "Dominguez was sentenced to ten years to life in prison."
+        }
+    ],
+    "otherInformation": [
+        {
+            "id": 1,
+            "simple": "Testimony discrepancies noted.",
+            "detailed": "Discrepancies existed in the testimonies regarding the location of the two female friends."
+        },
+        {
+            "id": 2,
+            "simple": "Defense: broke door for protection.",
+            "detailed": "The defense argued they were justified in breaking down the door to protect the women."
+        },
+        {
+            "id": 3,
+            "simple": "Mistrial motion denied.",
+            "detailed": "A motion for a mistrial was denied after an officer mentioned Dominguez's mug shot."
+        },
+        {
+            "id": 4,
+            "simple": "Jury instruction issues raised.",
+            "detailed": "Dominguez's counsel believed the jury instructions were inadequate."
+        }
+    ]
+}

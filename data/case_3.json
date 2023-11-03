@@ -1,0 +1,61 @@
+{
+    "caseName": "State v. Savath, 447 P.3d 1, 298 Or. App. 495 (2019)",
+    "decisionDate": "July 17, 2019",
+    "court": "Court of Appeals of Oregon",
+    "parties": {
+        "simple": ["Oregon vs. Savath"],
+        "detailed": ["Plaintiff-Respondent: State of Oregon", "Defendant-Appellant: Sengdavanh Savath"]
+    },
+    "background": {
+        "simple": ["Savath arrested", "Drugs & cash found", "Phone seized"],
+        "detailed": ["Savath was arrested after a traffic stop.", "Search revealed drugs, cash, and drug-related items.", "Savath's smartphone was seized."]
+    },
+    "evidence": [
+        {
+            "id": 1,
+            "simple": "Drugs & cash",
+            "detailed": "Drugs, cash, packaging materials, payment records."
+        },
+        {
+            "id": 2,
+            "simple": "Incriminating texts",
+            "detailed": "Incriminating text messages on Savath's phone."
+        }
+    ],
+    "legalArgument": [
+        {
+            "id": 1,
+            "simple": "Challenged warrant",
+            "detailed": "Savath challenged the validity of the search warrant.",
+            "relatedEvidence": [1, 2]
+        },
+        {
+            "id": 2,
+            "simple": "Particularity argued",
+            "detailed": "Argued against the particularity of the warrant.",
+            "relatedEvidence": [2]
+        }
+    ],
+    "initialJudgment": [
+        {
+            "id": 1,
+            "simple": "Texts not suppressed",
+            "detailed": "Motion to suppress text messages denied.",
+            "relatedArguments": [1]
+        },
+        {
+            "id": 2,
+            "simple": "Savath convicted",
+            "detailed": "Savath was convicted after a jury trial.",
+            "relatedArguments": [1, 2]
+        }
+    ],
+    "appeal": {
+        "simple": ["Appealed warrant", "Insufficient particularity"],
+        "detailed": ["Savath appealed against the warrant's validity.", "Argued the warrant was insufficiently particular."]
+    },
+    "outcome": {
+        "simple": ["Appeals agreed", "Convictions reversed"],
+        "detailed": ["Court of Appeals agreed with Savath.", "Reversed controlled-substance-related convictions."]
+    }
+}

@@ -1,0 +1,139 @@
+{
+    "caseName": "State v. Curry, 447 P.3d 7, 298 Or. App. 377 (2019)",
+    "decisionDate": "July 3, 2019",
+    "court": "Court of Appeals of Oregon",
+    "background": [
+        {
+            "id": 1,
+            "simple": "Curry faced charges",
+            "detailed": "The defendant, Anthony Lenaire Curry, faced criminal charges."
+        },
+        {
+            "id": 2,
+            "simple": "Three college jurors",
+            "detailed": "Among the potential jurors were three college students: Robert, Sarah, and Fitsum."
+        },
+        {
+            "id": 3,
+            "simple": "Fitsum sole African-American",
+            "detailed": "Fitsum was the only African-American in the jury pool."
+        },
+        {
+            "id": 4,
+            "simple": "Robert, Sarah jurors",
+            "detailed": "Robert and Sarah were empaneled as jurors."
+        },
+        {
+            "id": 5,
+            "simple": "Fitsum struck",
+            "detailed": "Fitsum was not empaneled after the prosecutor used a peremptory strike against him."
+        },
+        {
+            "id": 6,
+            "simple": "Issue: Batson objection",
+            "detailed": "The core issue was the court's potential error in overruling the defendant's objection under Batson v. Kentucky."
+        }
+    ],
+    "evidence": [
+        {
+            "id": 1,
+            "simple": "Prosecutor's notes decided strike",
+            "detailed": "The prosecutor claimed to have decided to strike Fitsum based on notes taken before seeing him."
+        },
+        {
+            "id": 2,
+            "simple": "Reason: 'unemployed college student'",
+            "detailed": "The reason given was Fitsum's status as an 'unemployed, young college student.'"
+        },
+        {
+            "id": 3,
+            "simple": "Robert, Sarah not struck",
+            "detailed": "Robert and Sarah, also young college students, were not struck."
+        }
+    ],
+    "legalArgument": [
+        {
+            "id": 1,
+            "simple": "Defendant: strike was racial",
+            "detailed": "The defendant argued that the prosecutor's challenge was racially motivated.",
+            "relatedEvidence": [1, 2]
+        },
+        {
+            "id": 2,
+            "simple": "Defendant black, victim white",
+            "detailed": "The defendant's race was African-American, and the victim was white.",
+            "relatedEvidence": [1, 3]
+        },
+        {
+            "id": 3,
+            "simple": "Prosecutor: decision not racial",
+            "detailed": "The prosecutor defended his decision, claiming his choice was not based on race but on Fitsum's status as an unemployed college student.",
+            "relatedEvidence": [2]
+        }
+    ],
+    "confrontationalExchange": [
+        {
+            "id": 1,
+            "simple": "Prosecutor responded aggressively",
+            "detailed": "The prosecutor responded aggressively, accusing the defense counsel of being racist for suggesting that the strike was racially motivated."
+        },
+        {
+            "id": 2,
+            "simple": "Defense accused of racial bias",
+            "detailed": "The defense was accused of suggesting the strike was racially motivated."
+        }
+    ],
+    "initialJudgment": [
+        {
+            "id": 1,
+            "simple": "Court allowed Fitsum's strike",
+            "detailed": "The trial court allowed the prosecutor's peremptory challenge of Fitsum.",
+            "relatedLegalArgument": [1, 3]
+        },
+        {
+            "id": 2,
+            "simple": "Prosecutor's reasons valid",
+            "detailed": "The court believed the prosecutor had valid reasons for his decision.",
+            "relatedLegalArgument": [2, 3]
+        }
+    ],
+    "appeal": [
+        {
+            "id": 1,
+            "simple": "Defendant appealed",
+            "detailed": "The defendant appealed the decision."
+        },
+        {
+            "id": 2,
+            "simple": "Issue: court's credence to prosecutor",
+            "detailed": "The contention was that the trial court erred in crediting the prosecutor's explanation and not finding it as a pretext."
+        }
+    ],
+    "outcome": [
+        {
+            "id": 1,
+            "simple": "Contention: court's decision on intent",
+            "detailed": "The case hinged on whether the trial court's determination that the prosecutor's strike of Fitsum was not due to purposeful discrimination can be sustained."
+        },
+        {
+            "id": 2,
+            "simple": "Decision reviewed for error",
+            "detailed": "The determination was reviewed for potential clear error."
+        },
+        {
+            "id": 3,
+            "simple": "Case highlighted jury selection issues",
+            "detailed": "The case emphasized the challenges in proving racial discrimination in jury selection."
+        },
+        {
+            "id": 4,
+            "simple": "Court stressed non-discriminatory selection",
+            "detailed": "The court noted the importance of non-discriminatory jury selection."
+        },
+        {
+            "id": 5,
+            "simple": "Oregon needs clearer Batson rules",
+            "detailed": "Suggestions were made that Oregon could benefit from clearer rules for Batson challenges."
+        }
+    ]
+}
