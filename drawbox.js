@@ -429,10 +429,10 @@ function drawBox(layout) {
             word,
             line = [],
             lineNumber = 0,
-            lineHeight = 1.2, // Adjust this based on your needs. 1.2 is a typical value for line height in terms of "em".
+            lineHeight = 1.2,
             y = text.attr("y"),
             x = text.attr("x"),
-            dy = parseFloat(text.attr("dy") || 0), // Set a default value if dy is not present
+            dy = parseFloat(text.attr("dy") || 0),
             tspan = text.text(null)
                        .append("tspan")
                        .attr("x", x)

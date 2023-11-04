@@ -46,6 +46,7 @@ async function loadCaseDetails(caseId) {
           .attr('transform', e.transform);
       }
       const svg = d3.select('svg');
+      svg.attr("transform", "translate(400, 0)");
       const zoom = d3.zoom()
         .on('zoom', handleZoom);
       svg.call(zoom);
