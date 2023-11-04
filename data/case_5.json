@@ -5,13 +5,8 @@
     "background": [
         {
             "id": 1,
-            "simple": "Divorce case origins",
-            "detailed": "The case stems from issues arising from a petition to modify in a separate divorce proceeding"
-        },
-        {
-            "id": 2,
-            "simple": "Tax return issues",
-            "detailed": "It involves tax returns, tax exemptions, and the roles of various parties in preparing and filing amended tax returns"
+            "simple": "Divorce case origins and tax return issues.",
+            "detailed": "The case stems from issues arising from a petition to modify in a separate divorce proceeding. It involves tax returns, tax exemptions, and the roles of various parties in preparing and filing amended tax returns."
         }
     ],
     "evidence": [
@@ -69,13 +64,13 @@
             "id": 1,
             "simple": "Widdison's child tax exemption",
             "detailed": "The trial court authorized Widdison to claim the child exemption for tax years 2009 through 2012",
-            "relatedLegalArguments": [1, 2, 3]
+            "relatedLegalArgument": [1, 2, 3]
         },
         {
             "id": 2,
             "simple": "Kirkham to file Amended Returns",
             "detailed": "Ordered Kirkham to sign and file the Amended Returns",
-            "relatedLegalArguments": [4, 5, 6]
+            "relatedLegalArgument": [4, 5, 6]
         }
     ],
     "appeal": [

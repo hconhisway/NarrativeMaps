@@ -5,33 +5,8 @@
     "background": [
         {
             "id": 1,
-            "simple": "Dominguez met Victim at club.",
-            "detailed": "Julio Alphonso Dominguez and friends met the Victim at a club."
-        },
-        {
-            "id": 2,
-            "simple": "Group invited to Victim's apartment.",
-            "detailed": "The Victim invited the group to his apartment."
-        },
-        {
-            "id": 3,
-            "simple": "Victim touched friend inappropriately.",
-            "detailed": "On the way to the apartment, the Victim touched one of Dominguez's female friends inappropriately."
-        },
-        {
-            "id": 4,
-            "simple": "Confrontation ensued.",
-            "detailed": "This led to a confrontation."
-        },
-        {
-            "id": 5,
-            "simple": "Fight at apartment.",
-            "detailed": "At the apartment, disagreements arose and a fight broke out."
-        },
-        {
-            "id": 6,
-            "simple": "Victim locked in bedroom.",
-            "detailed": "The Victim locked himself in his bedroom."
+            "simple": "Dominguez met Victim, confrontation, fight ensued.",
+            "detailed": "Julio Alphonso Dominguez and friends met the Victim at a club and were invited to his apartment. After an inappropriate incident on the way, a confrontation ensued at the apartment, leading to a fight. The Victim locked himself in his bedroom."
         }
     ],
     "evidence": [

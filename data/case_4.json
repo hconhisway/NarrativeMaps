@@ -5,33 +5,8 @@
     "background": [
         {
             "id": 1,
-            "simple": "Curry faced charges",
-            "detailed": "The defendant, Anthony Lenaire Curry, faced criminal charges."
-        },
-        {
-            "id": 2,
-            "simple": "Three college jurors",
-            "detailed": "Among the potential jurors were three college students: Robert, Sarah, and Fitsum."
-        },
-        {
-            "id": 3,
-            "simple": "Fitsum sole African-American",
-            "detailed": "Fitsum was the only African-American in the jury pool."
-        },
-        {
-            "id": 4,
-            "simple": "Robert, Sarah jurors",
-            "detailed": "Robert and Sarah were empaneled as jurors."
-        },
-        {
-            "id": 5,
-            "simple": "Fitsum struck",
-            "detailed": "Fitsum was not empaneled after the prosecutor used a peremptory strike against him."
-        },
-        {
-            "id": 6,
-            "simple": "Issue: Batson objection",
-            "detailed": "The core issue was the court's potential error in overruling the defendant's objection under Batson v. Kentucky."
+            "simple": "Curry faced charges, three college jurors, Fitsum sole African-American, Robert, Sarah jurors, Fitsum struck, issue: Batson objection.",
+            "detailed": "The defendant, Anthony Lenaire Curry, faced criminal charges with three potential college jurors, Robert, Sarah, and Fitsum, the latter being the only African-American. Robert and Sarah were empaneled, but Fitsum was struck by a peremptory challenge from the prosecutor. The central issue arose from the court's potential error in overruling the defendant's Batson v. Kentucky objection."
         }
     ],
     "evidence": [
@@ -127,7 +102,7 @@
         },
         {
             "id": 4,
-            "simple": "Court stressed non-discriminatory selection",
+            "simple": "Stressed non-discriminatory selection",
             "detailed": "The court noted the importance of non-discriminatory jury selection."
         },
         {

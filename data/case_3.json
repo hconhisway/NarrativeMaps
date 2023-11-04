@@ -2,14 +2,20 @@
     "caseName": "State v. Savath, 447 P.3d 1, 298 Or. App. 495 (2019)",
     "decisionDate": "July 17, 2019",
     "court": "Court of Appeals of Oregon",
-    "parties": {
-        "simple": ["Oregon vs. Savath"],
-        "detailed": ["Plaintiff-Respondent: State of Oregon", "Defendant-Appellant: Sengdavanh Savath"]
-    },
-    "background": {
-        "simple": ["Savath arrested", "Drugs & cash found", "Phone seized"],
-        "detailed": ["Savath was arrested after a traffic stop.", "Search revealed drugs, cash, and drug-related items.", "Savath's smartphone was seized."]
-    },
+    "parties": [
+        {
+            "id": 1,
+            "simple": "Oregon vs. Savath",
+            "detailed": "Plaintiff-Respondent: State of Oregon vs. Defendant-Appellant: Sengdavanh Savath"
+        }
+    ],
+    "background": [
+        {
+            "id": 1,
+            "simple": "Savath arrested, drugs & cash found, phone seized",
+            "detailed": "Savath was arrested after a traffic stop, during which drugs, cash, and drug-related items were found. Savath's smartphone was also seized."
+        }
+    ],
     "evidence": [
         {
             "id": 1,
@@ -41,21 +47,37 @@
             "id": 1,
             "simple": "Texts not suppressed",
             "detailed": "Motion to suppress text messages denied.",
-            "relatedArguments": [1]
+            "relatedLegalArgument": [1]
         },
         {
             "id": 2,
             "simple": "Savath convicted",
             "detailed": "Savath was convicted after a jury trial.",
-            "relatedArguments": [1, 2]
+            "relatedLegalArgument": [1, 2]
         }
     ],
-    "appeal": {
-        "simple": ["Appealed warrant", "Insufficient particularity"],
-        "detailed": ["Savath appealed against the warrant's validity.", "Argued the warrant was insufficiently particular."]
-    },
-    "outcome": {
-        "simple": ["Appeals agreed", "Convictions reversed"],
-        "detailed": ["Court of Appeals agreed with Savath.", "Reversed controlled-substance-related convictions."]
-    }
+    "appeal": [
+        {
+            "id": 1,
+            "simple": "Appealed warrant",
+            "detailed": "Savath appealed against the warrant's validity."
+        },
+        {
+            "id": 2,
+            "simple": "Insufficient particularity",
+            "detailed": "Argued the warrant was insufficiently particular."
+        }
+    ],
+    "outcome": [
+        {
+            "id": 1,
+            "simple": "Appeals agreed",
+            "detailed": "Court of Appeals agreed with Savath."
+        },
+        {
+            "id": 2,
+            "simple": "Convictions reversed",
+            "detailed": "Reversed controlled-substance-related convictions."
+        }
+    ]
 }

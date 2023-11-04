@@ -1,121 +1,69 @@
 {
-    "caseName": "STATE of Utah v. William TIRADO",
+    "caseName": "State v. Tirado, 447 P.3d 117 (2019)",
     "decisionDate": "2019-07-05",
     "court": "Court of Appeals of Utah",
-    "details": {
-        "background": {
-            "simple": [
-                "Tirado, cousin in sting operation.",
-                "Informant tried buying drugs.",
-                "No drug exchange occurred.",
-                "Cousin had methamphetamine."
-            ],
-            "detailed": [
-                "William Tirado and his cousin were involved in a sting operation in Utah.",
-                "An informant attempted to buy drugs from them.",
-                "The communication was ambiguous, resulting in no drug exchange.",
-                "The cousin was later found with methamphetamine."
-            ]
-        },
-        "evidence": [
-            {
-                "id": 1,
-                "simple": "Paraphernalia at Tirado's home.",
-                "detailed": "Drug paraphernalia was discovered at Tirado's residence."
-            },
-            {
-                "id": 2,
-                "simple": "Cousin discussed selling meth.",
-                "detailed": "The cousin allegedly told an officer about his intent to sell methamphetamine."
-            }
-        ],
-        "legalArgument": [
-            {
-                "id": 1,
-                "simple": "Tirado charged for paraphernalia.",
-                "detailed": "Tirado was charged with possession of drug paraphernalia.",
-                "relatedEvidence": [1]
-            },
-            {
-                "id": 2,
-                "simple": "Charged for drug distribution.",
-                "detailed": "Tirado was also charged with arranging the distribution of a controlled substance.",
-                "relatedEvidence": [2]
-            },
-            {
-                "id": 3,
-                "simple": "Same Attorney for both.",
-                "detailed": "Both Tirado and his cousin were represented by the same Attorney, leading to a potential conflict of interest.",
-                "relatedEvidence": [1, 2]
-            }
-        ],
-        "initialJudgment": [
-            {
-                "id": 1,
-                "simple": "Cousin not a witness.",
-                "detailed": "The Attorney neither called the cousin as a witness.",
-                "relatedLegalArgument": [3]
-            },
-            {
-                "id": 2,
-                "simple": "Officer's testimony unchallenged.",
-                "detailed": "The Attorney didn't object to an officer's testimony about the cousin's intent to sell methamphetamine.",
-                "relatedLegalArgument": [2]
-            },
-            {
-                "id": 3,
-                "simple": "Tirado convicted on charges.",
-                "detailed": "Tirado was convicted on both charges.",
-                "relatedLegalArgument": [1, 2, 3]
-            }
-        ],
-        "appeal": {
-            "simple": [
-                "Tirado appealed decision.",
-                "Claimed Attorney's conflict.",
-                "Conflict influenced decisions."
-            ],
-            "detailed": [
-                "Tirado appealed the decision.",
-                "He asserted ineffective assistance due to the Attorney's conflict of interest.",
-                "He believed the conflict influenced key decisions, such as not calling the cousin to testify."
-            ]
-        },
-        "remand": {
-            "simple": [
-                "Remand based on Rule 23B.",
-                "Three-day evidentiary hearing.",
-                "Cousin willing to testify.",
-                "Attorney's dual role risky."
-            ],
-            "detailed": [
-                "The case underwent a remand based on Rule 23B.",
-                "The trial court held a three-day evidentiary hearing.",
-                "The cousin was willing to testify in Tirado's favor.",
-                "The court concluded the Attorney's dual representation posed a significant risk to Tirado's defense."
-            ]
-        },
-        "hearsayStatement": {
-            "simple": [
-                "Missed hearsay objection.",
-                "Oversight lacked strategy."
-            ],
-            "detailed": [
-                "The Attorney failed to object to a hearsay statement during the trial.",
-                "The trial court found this oversight unsupported by any reasonable trial strategy."
-            ]
-        },
-        "outcome": {
-            "simple": [
-                "Court found conflict of interest.",
-                "Conviction reversed.",
-                "Case remanded for trial."
-            ],
-            "detailed": [
-                "The Court of Appeals of Utah determined the concurrent representation was an actual conflict of interest.",
-                "Tirado's conviction for arranging the distribution of a controlled substance was reversed.",
-                "The case was remanded for a new trial."
-            ]
+    "docketNumber": "No. 20140967-CA",
+    "background": [
+        {
+            "id": 1,
+            "simple": "Tirado arrested after sting, no drug sale, cousin had meth.",
+            "detailed": "William Tirado was arrested following a sting operation where no drugs were exchanged, but his cousin was found with methamphetamine."
         }
-    }
+    ],
+    "evidence": [
+        {
+            "id": 1,
+            "simple": "Cousin had meth, intended to sell.",
+            "detailed": "Tirado's cousin was found with 2.1 grams of methamphetamine and indicated he would sell from that amount if needed."
+        },
+        {
+            "id": 2,
+            "simple": "Paraphernalia found at Tirado's home.",
+            "detailed": "Drug paraphernalia was discovered at Tirado's residence after his fiancée gave officers permission to search."
+        }
+    ],
+    "legalArgument": [
+        {
+            "id": 1,
+            "simple": "Tirado charged with drug crimes.",
+            "detailed": "Tirado was charged with possession of drug paraphernalia and arranging the distribution of a controlled substance.",
+            "relatedEvidence": [1, 2]
+        }
+    ],
+    "initialJudgment": [
+        {
+            "id": 1,
+            "simple": "Tirado convicted on both charges.",
+            "detailed": "Tirado was convicted of possession of drug paraphernalia and arranging the distribution of a controlled substance.",
+            "relatedLegalArgument": [1]
+        }
+    ],
+    "appeal": [
+        {
+            "id": 1,
+            "simple": "Tirado appealed, claimed ineffective counsel.",
+            "detailed": "Tirado appealed his conviction, claiming ineffective assistance of counsel due to an actual conflict of interest."
+        }
+    ],
+    "remand": [
+        {
+            "id": 1,
+            "simple": "Case remanded for conflict assessment.",
+            "detailed": "The case was remanded to assess the alleged conflict of interest of Tirado's attorney, who also represented his cousin."
+        }
+    ],
+    "hearsayStatement": [
+        {
+            "id": 1,
+            "simple": "Attorney missed hearsay objection.",
+            "detailed": "Tirado's attorney failed to object to a hearsay statement that was used to imply Tirado's intent to distribute drugs."
+        }
+    ],
+    "outcome": [
+        {
+            "id": 1,
+            "simple": "Conviction reversed, new trial ordered.",
+            "detailed": "The Court of Appeals reversed Tirado's conviction and remanded the case for a new trial due to ineffective assistance of counsel."
+        }
+    ]
 }

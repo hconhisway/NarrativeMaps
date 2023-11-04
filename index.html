@@ -33,8 +33,11 @@
     </section>
 
     <!-- Case Details Section (hidden by default) -->
-    <section id="case-details" style="display: none;">
+    <section id="case-details">
       <h2>Case Details</h2>
+      <svg id="mainsvg" width="1200" height="1000" overflow="visible" ref="svgMoviz">
+        <g id="sumGroup"></g>
+      </svg>
       <div id="case-content">
         <!-- Case details will be loaded here -->
       </div>
@@ -45,7 +48,10 @@
       © 2023 Narratives of Court Judgment Visualization Project
     </footer>
   </div>
-
+  <script src="dagre.js"></script>
+  <script src="drawlines.js"></script>
+  <script src="drawbox.js"></script>
   <script src="script.js?v=1.2"></script>
+  <script src="getLayout.js"></script>
 </body>
 </html>

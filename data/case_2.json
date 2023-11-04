@@ -1,158 +1,65 @@
 {
     "caseName": "State v. Brown",
+    "decisionDate": "July 18, 2019",
+    "court": "Court of Appeals of Utah",
     "background": [
         {
             "id": 1,
-            "simple": "Brown's real estate earnings claim.",
-            "detailed": "Brown claimed to have made money as a commercial real estate broker before 2008."
-        },
-        {
-            "id": 2,
-            "simple": "Moved funds offshore.",
-            "detailed": "Moved her funds to offshore accounts due to concerns about the U.S. financial system."
-        },
-        {
-            "id": 3,
-            "simple": "Had funds in two banks.",
-            "detailed": "Had funds in accounts at InterBank and the Bank of China."
-        }
-    ],
-    "timeline": [
-        {
-            "id": 1,
-            "simple": "Met Victim and Friend.",
-            "detailed": "Brown was introduced to Victim and Friend."
-        },
-        {
-            "id": 2,
-            "simple": "Claimed offshore funds.",
-            "detailed": "Claimed to have substantial funds in offshore accounts."
-        },
-        {
-            "id": 3,
-            "simple": "Signed $59,500 note.",
-            "detailed": "Signed a promissory note with Victim for $59,500."
-        },
-        {
-            "id": 4,
-            "simple": "Asked Friend for $80,500.",
-            "detailed": "Requested an additional $80,500 from Friend."
-        },
-        {
-            "id": 5,
-            "simple": "Later requested $210,000.",
-            "detailed": "Later requested $210,000, leading Victim to contact authorities."
-        },
-        {
-            "id": 6,
-            "simple": "Charged with fraud.",
-            "detailed": "Charged with three counts of securities fraud."
-        },
-        {
-            "id": 7,
-            "simple": "Self-represented in court.",
-            "detailed": "Represented herself in court."
-        },
-        {
-            "id": 8,
-            "simple": "State presented evidence.",
-            "detailed": "State presented evidence against her."
-        },
-        {
-            "id": 9,
-            "simple": "Convicted on all counts.",
-            "detailed": "Convicted on all three counts."
+            "simple": "Brown misrepresented financial status to obtain loans.",
+            "detailed": "Tonia Schnae Brown, claiming to have substantial offshore funds, misrepresented her financial status to Victim and Friend, convincing them to loan her money by promising high returns and no risk."
         }
     ],
     "evidence": [
         {
             "id": 1,
-            "simple": "Signed note with Victim.",
-            "detailed": "Signed a promissory note with Victim."
+            "simple": "Brown's false tax claim.",
+            "detailed": "Brown claimed she owed $59,500 in value added taxes to the Hong Kong government, which was false as Hong Kong does not have a VAT."
         },
         {
             "id": 2,
-            "simple": "VAT increase letter.",
-            "detailed": "Victim received a letter about increased VAT."
+            "simple": "Promissory notes issued.",
+            "detailed": "Brown issued promissory notes to Victim and Friend, falsely assuring them of repayment upon the release of her 'frozen' funds."
         },
         {
             "id": 3,
-            "simple": "More money requested.",
-            "detailed": "Another letter requested more money."
-        },
-        {
-            "id": 4,
-            "simple": "Victim found inconsistencies.",
-            "detailed": "Victim found inconsistencies in Brown's claims."
+            "simple": "Fake bank communications.",
+            "detailed": "Communications purportedly from the Bank of China and InterBank were provided by Brown, which turned out to be inauthentic."
         }
     ],
     "legalArgument": [
         {
             "id": 1,
-            "simple": "Presented false claims.",
-            "detailed": "State presented evidence of false claims.",
-            "relatedEvidence": [1, 2, 3, 4]
+            "simple": "Misrepresentation of investment risk.",
+            "detailed": "Brown misrepresented the investment as 'no risk' which is a material fact for investors.",
+            "relatedEvidence": [1]
         },
         {
             "id": 2,
-            "simple": "Expert testimony provided.",
-            "detailed": "Expert testimony on securities fraud was provided.",
-            "relatedEvidence": [4]
-        },
-        {
-            "id": 3,
-            "simple": "Actions showed fraud.",
-            "detailed": "Brown's actions had characteristics of securities fraud.",
-            "relatedEvidence": [1, 2, 3]
+            "simple": "Duty to disclose material facts.",
+            "detailed": "The prosecution argued that Brown had a duty to disclose all material facts related to the investment, which she failed to do.",
+            "relatedEvidence": [2, 3]
         }
     ],
     "initialJudgment": [
         {
             "id": 1,
-            "simple": "Guilty on all charges.",
-            "detailed": "Jury found Brown guilty on all charges related to the fraudulent transactions.",
-            "resultingFromLegalArguments": [1, 2, 3]
+            "simple": "Brown convicted of fraud.",
+            "detailed": "The jury found Brown guilty on three counts of securities fraud, resulting in a prison sentence and restitution.",
+            "relatedLegalArgument" : [1, 2]
         }
     ],
     "appeal": [
         {
             "id": 1,
-            "simple": "Brown appealed convictions.",
-            "detailed": "Brown, with appointed counsel, appealed her convictions, challenging the jury instructions and expert testimony."
+            "simple": "Convictions affirmed on appeal.",
+            "detailed": "Brown's convictions were affirmed upon appeal, with the court rejecting her arguments against the jury instructions and expert testimony."
         }
     ],
     "outcome": [
         {
             "id": 1,
-            "simple": "Convictions affirmed.",
-            "detailed": "Court affirmed Brown's convictions on three counts of securities fraud."
-        }
-    ],
-    "additionalKeyPoints": [
-        {
-            "id": 1,
-            "simple": "Defendant self-represented.",
-            "detailed": "The defendant chose to represent herself during the trial proceedings."
-        },
-        {
-            "id": 2,
-            "simple": "Jury instruction issues.",
-            "detailed": "The defendant challenged the instructions given to the jury during the trial."
-        },
-        {
-            "id": 3,
-            "simple": "Expert testimony disputed.",
-            "detailed": "The defendant challenged the validity and admissibility of expert testimony presented during the trial."
-        },
-        {
-            "id": 4,
-            "simple": "Made financial claims.",
-            "detailed": "The defendant claimed to have significant financial assets or resources."
-        },
-        {
-            "id": 5,
-            "simple": "Requested funds multiple times.",
-            "detailed": "The defendant made multiple requests for funds or financial assistance from other parties."
+            "simple": "Brown's appeal denied.",
+            "detailed": "The appellate court affirmed Brown's convictions, denying her appeal."
         }
     ]
 }

@@ -23,7 +23,7 @@ async function populateNavbarWithCaseNames() {
         // Add click event listener to load case details
         a.addEventListener('click', (e) => {
         e.preventDefault();
-        loadCaseDetails(e.target.dataset.caseId);
+        loadCaseDetails(i);
       });
       } catch (error) {
         console.error('Error fetching case data:', error);
@@ -37,20 +37,32 @@ async function loadCaseDetails(caseId) {
       const response = await fetch(`./data/case_${caseId}.json`);
       if (!response.ok) throw new Error('Network response was not ok.');
       const caseData = await response.json();
-      const caseDetailsSection = document.getElementById('case-details');
-      const caseContentDiv = document.getElementById('case-content');
-  
+      const layout = getBoxLayout(caseData);
+      d3.select("#sumGroup").selectAll("*").remove();
+      drawBox(layout);
+      drawlines(layout);
+      function handleZoom(e) {
+        d3.select('svg g')
+          .attr('transform', e.transform);
+      }
+      const svg = d3.select('svg');
+      const zoom = d3.zoom()
+        .on('zoom', handleZoom);
+      svg.call(zoom);
+      // const caseDetailsSection = document.getElementById('case-details');
+      // const caseContentDiv = document.getElementById('case-content');
+
       // Clear previous content
-      caseContentDiv.innerHTML = '';
+      // caseContentDiv.innerHTML = '';
   
       // Convert the JSON object to a formatted string
-      const jsonString = JSON.stringify(caseData, null, 2);
+      // const jsonString = JSON.stringify(caseData, null, 2);
   
       // Insert the stringified JSON into a <pre> element to preserve formatting
-      caseContentDiv.innerHTML = `<pre>${jsonString}</pre>`;
+      // caseContentDiv.innerHTML = `<pre>${jsonString}</pre>`;
   
       // Show the case details section
-      caseDetailsSection.style.display = 'block';
+      // caseDetailsSection.style.display = 'block';
     } catch (error) {
       console.error('Error fetching case data:', error);
     }
